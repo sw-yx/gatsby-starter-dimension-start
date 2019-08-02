@@ -95,6 +95,7 @@ class IndexPage extends React.Component {
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
+<h1> helloooo world</h1>
             <Main
               isArticleVisible={this.state.isArticleVisible}
               timeout={this.state.timeout}
